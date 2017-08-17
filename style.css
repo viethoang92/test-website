@@ -1,7 +1,6 @@
 * { 
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
-
 }
 
 body {
@@ -74,18 +73,24 @@ body {
 }
 
 .subSection a{
-
+    display: 'none';
     background-color: #222;
     width: 200px;
     font-size: 16px;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
 }
 
 /* END Navigation Bar */
 
 
 .content {
+    word-break: break-all;
     height: 1000px;
-    width: 1000px;
+    min-width:300px;
     margin-top: 40px;
     margin-left: 200px;
     position: fixed;
