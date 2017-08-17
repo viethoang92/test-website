@@ -5,6 +5,7 @@
 	<title>Test-Website</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -18,13 +19,20 @@
 		</div>
 
 		<div class="sideNav">
-			<a href="#SectionI">General Starting Class Overview</a>
+			<a href="#SectionI" class="sections">General Starting Class Overview</a>
 			<div class="subSection">
-				<a href="#Warrior">The Warrior</a>
-				<a href="#Rogue">The Rogue</a>
+				<a href="#warrior">The Warrior</a>
+				<a href="#rogue">The Rogue</a>
+				<a href="#mage">The Mage</a>
 			</div>
 			<a href="#SectionII">Class Specializations</a>
+			<div class="subSection">
+				<a href="#warrior">The Warrior</a>
+				<a href="#rogue">The Rogue</a>
+				<a href="#mage">The Mage</a>
+			</div>
 		</div>
+
 
 		<div class="content">
 			<div id="SectionI">
@@ -36,7 +44,7 @@
 					the difference between defense and armour is, what fatigue is, etc. If you don't, then you may want to read up on that
 					first.
 				</p>
-				<h4 id="Warrior">The Warrior [DAOS1.1]</h4>
+				<h4 id="warrior">The Warrior [DAOS1.1]</h4>
 				<p>
 					Warriors are largely what you'd expect from an RPG - they are the most versatile weaponry specialists of any base class,
 					able to learn all three melee styles (sword and shield, dual wielding, and two-handed weapons) as well as archery. Their
@@ -51,7 +59,7 @@
 					- Smaller bag of tricks than the other classes - Greater need to manage stamina due to fatigue - Not as sturdy as warriors
 					in a lot of RPGs; caution and tactics still required to survive - More one-dimensional than the other classes
 				</p>
-				<h4 id="Rogue">1.2 - The Rogue [DAOS1.2]</h4>
+				<h4 id="rogue">1.2 - The Rogue [DAOS1.2]</h4>
 				<p>
 					Rogues provide a broad blend of damage, crowd control, support, and general utility. While not as sturdy or well suited to
 					heavy armour as the warrior, rogues have a nice bag of tricks that gives them as much (or even more) survivability as
@@ -66,34 +74,42 @@
 					warriors due to lower hp and less armour - Require somewhat more micromanagement than warriors to be effective - Limited
 					weapon selection - Tend to be defensively weak and vulnerable in the early game
 				</p>
-				1.3 - The Mage [DAOS1.3] If you've played BioWare RPGs before, you're probably expecting the mage to be a complete and utter
-				powerhouse. If so, you guessed correctly. Mages have the most raw power of any class, in addition to having an enormous
-				bag of tricks for keeping themselves alive against the odds and horribly incapacitating and mangling even the strongest
-				enemies. Many of their spells are extremely potent on their own, but the spell combo mechanic can ramp up the destruction
-				to even greater levels. For sheer battlefield control and dominance, nothing exceeds the potential of a mage. They also
-				make excellent group support characters, and can even be melee tanks if you pick the Arcane Warrior specialization (more
-				on that later). Pros: + Far and away the highest damage output of any class + The only class that can heal + Enormously
-				potent spell combinations + Surprisingly high survivability and crowd control with the right spells + Can become the
-				heaviest armour tanks in the game with the Arcane Warrior specialization Cons: - Require the most micromanagement of
-				any class to be effective, unless you just use them as a healbot - Low hit point pool and poor armour, so positioning
-				and defensive spells are necessary for survival - Very little equipment variety - Actually kind of too strong; have a
-				lot of overpowered abilities and tricks that can trivialize encounters that would otherwise be very challenging.
-				</p>
+				<h4 id="mage" 1.3 - The Mage [DAOS1.3] If you 've played BioWare RPGs before, you're probably expecting the mage to be a
+				 complete and utter powerhouse. If so, you guessed correctly. Mages have the most raw power of any class, in addition
+				 to having an enormous bag of tricks for keeping themselves alive against the odds and horribly incapacitating and mangling
+				 even the strongest enemies. Many of their spells are extremely potent on their own, but the spell combo mechanic can
+				 ramp up the destruction to even greater levels. For sheer battlefield control and dominance, nothing exceeds the potential
+				 of a mage. They also make excellent group support characters, and can even be melee tanks if you pick the Arcane Warrior
+				 specialization (more on that later). Pros: + Far and away the highest damage output of any class + The only class that
+				 can heal + Enormously potent spell combinations + Surprisingly high survivability and crowd control with the right spells
+				 + Can become the heaviest armour tanks in the game with the Arcane Warrior specialization Cons: - Require the most micromanagement
+				 of any class to be effective, unless you just use them as a healbot - Low hit point pool and poor armour, so positioning
+				 and defensive spells are necessary for survival - Very little equipment variety - Actually kind of too strong; have a
+				 lot of overpowered abilities and tricks that can trivialize encounters that would otherwise be very challenging. </p>
 			</div>
 			<div id="SectionII">
 				<h3>Class Specializations</h3>
 				<p>
 					Class specializations become available at levels 7 and 14. All humanoid characters other than Sten can learn 2 specializations,
 					though only the PC actually gets to pick both, as the others generally start with one. Level requirements for each talent
-					are in parentheses. 2.1 - Warrior Specializations [DAOS2.1] CHAMPION Source: Reward from Arl Eamon Bonuses: +2 Willpower,
-					+1 Cunning The Champion specialization is a solid choice for almost any type of warrior, as it provides nice group buffing
-					and crowd control abilities. It is particularly well suited to tanks, since they'll usually be in the thickest parts
-					of the fight. This is the only warrior specialization that bolsters allies. Champion talents: War Cry (7) - An AoE attack
-					debuff. Nothing spectacular on its own, though if you've got stamina to spare, it never hurts either. Rally (12) - A
-					sustained AoE defense buff. Very handy for shieldtanks and for giving a survivability boost to any rogues in your party.
-					The main downside is that it knocks allied rogues out of stealth when they enter its AoE, which I've always thought
-					was bloody silly. Motivate (14) - Adds an attack buff to Rally. If you use Rally a lot, it's worth getting. Superiority
-					(16) - Adds an AoE knockdown to War Cry, turning it from a mediocre debuff to a potent crowd control ability. TEMPLAR
+					are in parentheses.
+				</p>
+
+				<h4>2.1 - Warrior Specializations [DAOS2.1]</h4>
+				<h5>CHAMPION</h5>
+				<p>
+					Source: Reward from Arl Eamon Bonuses: +2 Willpower,+1 Cunning The Champion specialization is a solid choice for almost any
+					type of warrior, as it provides nice group buffing and crowd control abilities. It is particularly well suited to tanks,
+					since they'll usually be in the thickest parts of the fight. This is the only warrior specialization that bolsters allies.
+					Champion talents: War Cry (7) - An AoE attack debuff. Nothing spectacular on its own, though if you've got stamina to
+					spare, it never hurts either. Rally (12) - A sustained AoE defense buff. Very handy for shieldtanks and for giving a
+					survivability boost to any rogues in your party. The main downside is that it knocks allied rogues out of stealth when
+					they enter its AoE, which I've always thought was bloody silly. Motivate (14) - Adds an attack buff to Rally. If you
+					use Rally a lot, it's worth getting. Superiority (16) - Adds an AoE knockdown to War Cry, turning it from a mediocre
+					debuff to a potent crowd control ability.
+				</p>
+				<h5>TEMPLAR</h5>
+				<p>
 					Source: Can either be acquired through a manual from Bodahn Feddic or taught by Alistair once his approval is high enough
 					Bonuses: +2 Magic, +3 mental resistance The Templar specialization serves one role and one role only - anti-magic duties.
 					Every ability they get is oriented toward countering magical enemies in some way or other. This is a common choice for
@@ -108,131 +124,166 @@
 					to be used against mages, as it drains mana from them and inflicts additional spirit damage based on the amount of mana
 					drained. This would be kind of a useless ability if mages weren't so ungodly powerful; killing enemy mages as soon as
 					possible is usually a good strategy in any fight, so this talent may be worth taking to accomplish that, though I find
-					the damage a bit underwhelming for its cost, even with a decent Willpower modifier. BERSERKER Source: Can be learned
-					either from a manual bought from Gorim, or taught by Oghren once his approval is high enough ADDENDUM (from S. Baker):
-					you can also learn the Berserker specialization through a course of action during the random encounter with the incompetent
-					ambushers - listen to them natter for a bit, and then charge them to spring your own ambush. Apparently there's things
-					like this for learning some of the other specializations; as I learn them, I'll add them. Bonuses: +2 Strength, +10
-					hit points Berserker is the DPS warrior specialization. The entire purpose of the abilities gained is to boost your
-					damage output, so it's generally the clear choice for 2h or dual wielding warriors. Unlike in many games, Berserkers
-					in DA:O don't have to sacrifice survivability in exchange for this damage. Just watch your stamina early on. Berserker
-					talents: Berserk (7) - a sustained ability that boosts your damage and mental resistance, but imposes a penalty on your
-					stamina regeneration. In general, there's no reason why a Berserker should ever not have this on in combat. The major
-					drawback is its obnoxiously long cooldown. Resilience (8) - contrary to the in-game description, this talent actually
-					boosts your health regeneration while Berserk is active. Worth getting. Constraint (10) - neutralizes the stamina regeneration
-					penalty from Berserk while it's active, meaning there's even less reason not to have it active in combat. Final Blow
-					(12) - uses all of your stamina to unleash one big attack. Does 1 damage for every 2 stamina spent. Kind of situational,
-					and be aware that it can miss just like any other attack. REAVER Source: Taught by Kolgrim if you defile Andraste's
-					ashes Bonuses: +1 constitution, +5 stamina Reaver is probably the least useful of the warrior specializations, having
-					rather situational abilities and somewhat lesser stat bonuses. Reaver can be a decent choice for tanks and damage dealers.
-					Devour (7) - consumes nearby corpses, and restores health, with the amount based on your Magic stat, like health poultices.
-					Probably the most useful Reaver talent. Frightening Appearance (12) - causes your target to cower in fear if they fail
-					a mental resistance check, and also boosts the effectiveness of Taunt and Threaten. Pretty useful for tanks. Aura of
-					Pain (14) - an AoE DoT that hurts both you and enemies within range with each pulse. Considering it hurts you for the
-					same amount as it hurts them, and also imposes a penalty on your health regeneration, this is far from a great ability.
-					Tanks don't really want to be dropping their own hp and regen rate, and since it's an AoE, it'll tend to attract hostility
-					toward DPS warriors. Kind of useless. Blood Frenzy (16) - Adds between 0 and 10 damage depending on how low your health
-					is, and imposes a penalty to health regeneration. Basically a really shoddy version of Berserk. 2.2 - Rogue Specializations
-					[DAOS2.2] ASSASSIN Source: Can either be learned from a manual bought from Alarith, or taught by Zevran once his approval
-					is high enough Bonuses: +2 Dexterity, +2.5% melee critical hit chance Assassin is a great choice for any melee rogue,
-					since it gets really useful stat bonuses and a talent set oriented toward maximizing your damage output. Not so useful
-					for rogue archers. Assassin talents: Mark of Death (7) - a targeted debuff that increases all incoming damage against
-					the afflicted enemy. Great for dropping priority targets faster, like mages and bosses. Exploit Weakness (12) - adds
-					a passive damage bonus to every backstab hit based on your Cunning score. Since you probably have a pretty high Cunning
-					modifier as a rogue, this is a solid investment. Lacerate (14) - causes your backstabs to inflict a non-stacking DoT.
-					More damage means a target that's dead sooner, particularly against tougher enemies. Feast of the Fallen (16) - passively
-					allows you to regain stamina any time you kill an enemy with a backstab. Note that this only works for true backstabs
-					where you're flanking the enemy, and not Coup de Grace hits from the front against incapacitated enemies. If you find
-					yourself getting low on stamina early on in battles, this is worth considering. BARD Source: Can either be learned from
-					a manual bought from Alimar, or taught by Leliana once her approval is high enough Bonuses: +2 Willpower, +1 Cunning
-					The Bard specialization allows rogues to take on more of a group buffing role. Because their buffs automatically affect
-					the whole party no matter where they are, unlike Champion buffs which are a circular AoE, this pairs up particularly
-					well with ranged fighting styles. A solid choice for any rogue looking to play more of a support role. The effect of
-					all Bard songs are based on Cunning. Bards can only have one song active at a time. Bard talents: Song of Valour (7)
-					- a sustained party buff that boosts stamina and mana regeneration. Extremely useful in nearly every situation. Distraction
-					(8) - a sustained ability that decreases hostility and can disorient enemies that fail a mental resistance check. Pretty
-					situational and generally not necessary. Song of Courage (10) - a sustained party buff that boosts attack, damage, and
-					critical hit chance. A good choice if you have a melee-heavy party that just wants to mow through grunts quickly. Captivating
-					Song (12) - a sustained ability that continually inflicts a weak stun against all enemies in an AoE around the bard.
-					While using this song, you can't move, attack, or use any other abilities. Useful if you get swarmed, but not something
-					you'd want on all the time. DUELIST Source: Taught by Isabela at The Pearl Bonuses: +2 Dexterity, +1 damage Duelist
-					is an amazing specialization, providing extremely useful bonuses for any type of rogue, though particularly for melee
-					rogues. Provides a great blend of offensive and defensive capabilities. Duelist talents: Dueling (7) - a sustained ability
-					that grants a bonus to attack. Particularly useful in the early game, and for making archery more reliable. Upset Balance
-					(12) - a targeted melee debuff that lowers the defense and movement speed of an enemy Keen Defenses (14) - grants a
-					bonus to defense when Dueling is active. Since rogues generally rely on defense dodging to survive, this is almost always
-					useful. Pinpoint Strike (16) - an activated self-buff that turns all melee attacks into critical hits for a short time.
-					Quite useful when fighting shield users that are immune to flanking or any other time when backstabs are not possible.
-					RANGER Source: Learned from a manual you can purchase from Bodahn Feddic Bonuses: +1 Constitution, +5% Nature resistance
-					Ranger is the most unusual rogue specialization, as it is purely pet-based with no abilities that the character themself
-					actually uses. If you like summoning classes, this is the specialization for you. Pets can provide additional damage
-					and abilities and/or act as disposable tanks. Rangers also pair up well with Blood Mages (explained in the Mage Specializations
-					below). The drawbacks are the mediocre stat bonuses and the fact that if a summoned animal gets a killing blow, your
-					party receives no exp for the kill. Summon Wolf (7) - summons a wolf. Can howl, which is an AoE defense debuff. Summon
-					Bear (8) - summons a bear. Can slam, which is an automatic critical if it hits and may knock the target back. Summon
-					Spider (10) - summons a giant spider (noticing a pattern?). Can use Web, which immobilizes an enemy, and Spit Poison,
-					a ranged attack that inflicts a Nature DoT. Master Ranger (12) - Gives a power boost to all your summons, so you should
-					get it if you use your summons regularly. The wolf becomes a blight wolf, the bear becomes a great bear, and the spider
-					becomes a poison spider. 2.3 - Mage Specializations [DAOS2.3] SHAPESHIFTER Source: Can either be learned from a manual
-					bought from Varathorn, or taught by Morrigan if her approval rating is Neutral. Bonuses: +2 Constitution, +1 Armour
-					The Shapeshifter specialization is one that had a lot of cool potential but unfortunately fell short in practice. While
-					each of the abilities is useful in its own right, the long casting time on shapeshifting and the extreme reduction in
-					tactical options (you can't use any of your spells) while shifted make it the least useful of the mage specializations.
-					Shapeshifter talents: Spider Shape (7) - caster becomes a giant spider, gaining the Web (single target paralysis) and
-					Spit Poison (ranged DoT) abilities as well as Nature resistance Bear Shape (8) - caster becomes a bear, gaining a bonus
-					to armour and Nature resistance as well as the Slam (critical hit/knockback) and Rage (damage self-buff) abilities Flying
-					Swarm (10) - caster becomes a swarm of winged stinging insects that inflict Nature damage based on the caster's spellpower.
-					Mana regeneration drops to 0, and any damage the swarm takes is removed from mana instead of hit points. The swarm is
-					immune to normal missiles and has high evasion versus melee attacks, but is very vulnerable to fire. Master Shapeshifter
-					(12) - boosts the capabilities of each shifter form. Spider becomes Corrupted Spider and gains the Overwhelm attack;
-					bear becomes a Bereskarn and gains the Overwhelm attack; and the Flying Swarm gains health with every attack. ARCANE
-					WARRIOR Source: Learned from a spirit in the ruined temple of the Brecilian Forest Bonuses: +1 Dexterity, +5 attack
-					The most unusual of the mage specializations. Basically allows you to become a heavy melee fighter with unsurpassed
-					defensive potential, but with greatly diminished active spellcasting ability due to massively boosted fatigue. Arcane
-					Warrior talents: Combat Magic (7) - a sustained self-buff that lets you use your Magic stat rather than Strength to
-					determine weapon damage (while active) and to satisfy weapon and armour prerequisites (passively once Combat Magic is
-					learned). Also gives up to +10 attack based on your spellpower. Greatly boosts fatigue. Aura of Might (12) - adds bonuses
-					to attack, defense, and damage while Combat Magic is active. This is pretty essential - learn ASAP. Shimmering Shield
-					(14) - the best defensive self-buff in the game, Shimmering Shield is a sustained ability that grants a sizeable bonus
-					to armour, and adds 75 points to all resistances except spell resistance (note that 75% is where elemental resistances
-					are capped, but mental and physical resistance can go up to 100). Imposes a heavy penalty on mana regeneration. As of
-					patch 1.02, it will deactivate once mana reaches 0. Try and have this up as much as possible. Fade Shroud (16) - grants
-					a small bonus to mana regeneration and a 25% chance to avoid incoming attacks while Combat Magic is active. Another
-					essential skill that should be learned right away. BLOOD MAGE Source: Taught by the Desire demon possessing Connor Bonuses:
-					+2 Constitution, +2 spellpower Unbeatable for sheer offensive potential, Blood Mage is the way to go if you want your
-					mage to just be a spellcasting powerhouse. Be cautious when using Blood abilities, though, as they have significant
-					penalties that can result in disaster if employed at inopportune times. If you like to nuke things into oblivion while
-					hanging well back from the front lines, this specialization was made for you. Blood Mage talents: Blood Magic (7) -
-					a sustained self-buff that uses hit points rather than mana to cast spells, and reduces the effectiveness of any healing
-					spells or items used on you to 10% of their normal strength. The health cost of the spell is 20% lower than its mana
-					cost, and can be further reduced by Blood Mage- specific items found in the game. Blood Sacrifice (12) - heals the caster
-					by sucking life force out of an ally. Can only be used when Blood Magic is active, and does not suffer the 90% healing
-					penalty, but can kill the ally. A ranger's pets can be used as a 'battery' of sorts for a Blood Mage ally with this
-					ability. It's easier to manage than it sounds, as damage to your ally never exceeds 50 points, and you gain 2 hit points
-					for every 1 drained. Blood Wound (14) - one of the most powerful crowd control spells in the game, Blood Wound paralyzes
-					all enemies in a large AoE and inflicts a very strong DoT. Since Blood Mages tend to stack their Magic stat, this is
-					nearly impossible to resist. Blood Magic must be active, and enemies without blood (such as golems) are unaffected.
-					Used wisely, this attack can turn normally difficult encounters into a joke. Blood Control (16) - allows you to turn
-					an enemy into a temporary ally if they fail a mental resistance check. Depends on whether or not these abilities are
-					your cup of tea. SPIRIT HEALER Source: Learned from a tome that can be bought either in The Wonders of Thedas or outside
-					Warden's Keep. Contrary to what you'd expect, Wynne cannot teach it. Bonuses: +2 Magic, bonus to combat health regen
-					The most support-oriented of the mage specializations, Spirit Healer is a solid choice for nearly any kind of mage,
-					whether it's making you a better healer than you already are or giving you the option of being a great healer if things
-					take a turn for the worse. The bonuses are great and the spells are all useful. Spirit Healers are the only characters
-					other than Shale in statue mode that can heal more than one character at a time. Group Heal (7) - heals everyone in
-					your group, regardless of how spread out they are. Extremely useful, particularly when recovering from a large AoE attack
-					like a fireball. Revival (8) - this spell is the only way to revive an ally in combat. Usually not necessary, but always
-					nice to have as an option. Lifeward (12) - places a latent buff on the recipient that instantly heals them for a decent
-					amount whenever their hit points fall below 1/3 of their maximum. A good spell to throw on your tank in any tough fight.
-					Cleansing Aura (14) - a sustained AoE buff centred on the caster that sends out pulses of healing energy to all allies
-					in the area, with the heal amount decreasing as allies move further away. Also heals all injuries of allies in close
-					proximity. Good for saving money on injury kits and in battles where your characters tend to stay tightly grouped, but
-					you don't want to leave it running as it drains mana very quickly.
+					the damage a bit underwhelming for its cost, even with a decent Willpower modifier.
+				</p>
+				<h5>BERSERKER</h5>
+				<p>
+					Source: Can be learned either from a manual bought from Gorim, or taught by Oghren once his approval is high enough ADDENDUM
+					(from S. Baker): you can also learn the Berserker specialization through a course of action during the random encounter
+					with the incompetent ambushers - listen to them natter for a bit, and then charge them to spring your own ambush. Apparently
+					there's things like this for learning some of the other specializations; as I learn them, I'll add them. Bonuses: +2
+					Strength, +10 hit points Berserker is the DPS warrior specialization. The entire purpose of the abilities gained is
+					to boost your damage output, so it's generally the clear choice for 2h or dual wielding warriors. Unlike in many games,
+					Berserkers in DA:O don't have to sacrifice survivability in exchange for this damage. Just watch your stamina early
+					on. Berserker talents: Berserk (7) - a sustained ability that boosts your damage and mental resistance, but imposes
+					a penalty on your stamina regeneration. In general, there's no reason why a Berserker should ever not have this on in
+					combat. The major drawback is its obnoxiously long cooldown. Resilience (8) - contrary to the in-game description, this
+					talent actually boosts your health regeneration while Berserk is active. Worth getting. Constraint (10) - neutralizes
+					the stamina regeneration penalty from Berserk while it's active, meaning there's even less reason not to have it active
+					in combat. Final Blow (12) - uses all of your stamina to unleash one big attack. Does 1 damage for every 2 stamina spent.
+					Kind of situational, and be aware that it can miss just like any other attack.
+				</p>
+				<h5>REAVER</h5>
+				<p>
+					Source: Taught by Kolgrim if you defile Andraste's ashes Bonuses: +1 constitution, +5 stamina Reaver is probably the least
+					useful of the warrior specializations, having rather situational abilities and somewhat lesser stat bonuses. Reaver
+					can be a decent choice for tanks and damage dealers. Devour (7) - consumes nearby corpses, and restores health, with
+					the amount based on your Magic stat, like health poultices. Probably the most useful Reaver talent. Frightening Appearance
+					(12) - causes your target to cower in fear if they fail a mental resistance check, and also boosts the effectiveness
+					of Taunt and Threaten. Pretty useful for tanks. Aura of Pain (14) - an AoE DoT that hurts both you and enemies within
+					range with each pulse. Considering it hurts you for the same amount as it hurts them, and also imposes a penalty on
+					your health regeneration, this is far from a great ability. Tanks don't really want to be dropping their own hp and
+					regen rate, and since it's an AoE, it'll tend to attract hostility toward DPS warriors. Kind of useless. Blood Frenzy
+					(16) - Adds between 0 and 10 damage depending on how low your health is, and imposes a penalty to health regeneration.
+					Basically a really shoddy version of Berserk.
+				</p>
+				<h4>2.2 - Rogue Specializations [DAOS2.2]</h4>
+				<h5>ASSASSIN</h5>
+				<p>
+					Source: Can either be learned from a manual bought from Alarith, or taught by Zevran once his approval is high enough Bonuses:
+					+2 Dexterity, +2.5% melee critical hit chance Assassin is a great choice for any melee rogue, since it gets really useful
+					stat bonuses and a talent set oriented toward maximizing your damage output. Not so useful for rogue archers. Assassin
+					talents: Mark of Death (7) - a targeted debuff that increases all incoming damage against the afflicted enemy. Great
+					for dropping priority targets faster, like mages and bosses. Exploit Weakness (12) - adds a passive damage bonus to
+					every backstab hit based on your Cunning score. Since you probably have a pretty high Cunning modifier as a rogue, this
+					is a solid investment. Lacerate (14) - causes your backstabs to inflict a non-stacking DoT. More damage means a target
+					that's dead sooner, particularly against tougher enemies. Feast of the Fallen (16) - passively allows you to regain
+					stamina any time you kill an enemy with a backstab. Note that this only works for true backstabs where you're flanking
+					the enemy, and not Coup de Grace hits from the front against incapacitated enemies. If you find yourself getting low
+					on stamina early on in battles, this is worth considering.
+				</p>
+				<h5>BARD</h5>
+				<p>
+					Source: Can either be learned from a manual bought from Alimar, or taught by Leliana once her approval is high enough Bonuses:
+					+2 Willpower, +1 Cunning The Bard specialization allows rogues to take on more of a group buffing role. Because their
+					buffs automatically affect the whole party no matter where they are, unlike Champion buffs which are a circular AoE,
+					this pairs up particularly well with ranged fighting styles. A solid choice for any rogue looking to play more of a
+					support role. The effect of all Bard songs are based on Cunning. Bards can only have one song active at a time. Bard
+					talents: Song of Valour (7) - a sustained party buff that boosts stamina and mana regeneration. Extremely useful in
+					nearly every situation. Distraction (8) - a sustained ability that decreases hostility and can disorient enemies that
+					fail a mental resistance check. Pretty situational and generally not necessary. Song of Courage (10) - a sustained party
+					buff that boosts attack, damage, and critical hit chance. A good choice if you have a melee-heavy party that just wants
+					to mow through grunts quickly. Captivating Song (12) - a sustained ability that continually inflicts a weak stun against
+					all enemies in an AoE around the bard. While using this song, you can't move, attack, or use any other abilities. Useful
+					if you get swarmed, but not something you'd want on all the time.
+					<h5>DUELIST</h5> Source: Taught by Isabela at The Pearl Bonuses: +2 Dexterity, +1 damage Duelist is an amazing specialization,
+					providing extremely useful bonuses for any type of rogue, though particularly for melee rogues. Provides a great blend
+					of offensive and defensive capabilities. Duelist talents: Dueling (7) - a sustained ability that grants a bonus to attack.
+					Particularly useful in the early game, and for making archery more reliable. Upset Balance (12) - a targeted melee debuff
+					that lowers the defense and movement speed of an enemy Keen Defenses (14) - grants a bonus to defense when Dueling is
+					active. Since rogues generally rely on defense dodging to survive, this is almost always useful. Pinpoint Strike (16)
+					- an activated self-buff that turns all melee attacks into critical hits for a short time. Quite useful when fighting
+					shield users that are immune to flanking or any other time when backstabs are not possible.
+				</p>
+				<h5>RANGER</h5>
+				<p>
+					Source: Learned from a manual you can purchase from Bodahn Feddic Bonuses: +1 Constitution, +5% Nature resistance Ranger
+					is the most unusual rogue specialization, as it is purely pet-based with no abilities that the character themself actually
+					uses. If you like summoning classes, this is the specialization for you. Pets can provide additional damage and abilities
+					and/or act as disposable tanks. Rangers also pair up well with Blood Mages (explained in the Mage Specializations below).
+					The drawbacks are the mediocre stat bonuses and the fact that if a summoned animal gets a killing blow, your party receives
+					no exp for the kill. Summon Wolf (7) - summons a wolf. Can howl, which is an AoE defense debuff. Summon Bear (8) - summons
+					a bear. Can slam, which is an automatic critical if it hits and may knock the target back. Summon Spider (10) - summons
+					a giant spider (noticing a pattern?). Can use Web, which immobilizes an enemy, and Spit Poison, a ranged attack that
+					inflicts a Nature DoT. Master Ranger (12) - Gives a power boost to all your summons, so you should get it if you use
+					your summons regularly. The wolf becomes a blight wolf, the bear becomes a great bear, and the spider becomes a poison
+					spider.
+				</p>
+				<h4>2.3 - Mage Specializations [DAOS2.3]</h4>
+				<h5>SHAPESHIFTER</h5>
+				<p>
+					Source: Can either be learned from a manual bought from Varathorn, or taught by Morrigan if her approval rating is Neutral.
+					Bonuses: +2 Constitution, +1 Armour The Shapeshifter specialization is one that had a lot of cool potential but unfortunately
+					fell short in practice. While each of the abilities is useful in its own right, the long casting time on shapeshifting
+					and the extreme reduction in tactical options (you can't use any of your spells) while shifted make it the least useful
+					of the mage specializations. Shapeshifter talents: Spider Shape (7) - caster becomes a giant spider, gaining the Web
+					(single target paralysis) and Spit Poison (ranged DoT) abilities as well as Nature resistance Bear Shape (8) - caster
+					becomes a bear, gaining a bonus to armour and Nature resistance as well as the Slam (critical hit/knockback) and Rage
+					(damage self-buff) abilities Flying Swarm (10) - caster becomes a swarm of winged stinging insects that inflict Nature
+					damage based on the caster's spellpower. Mana regeneration drops to 0, and any damage the swarm takes is removed from
+					mana instead of hit points. The swarm is immune to normal missiles and has high evasion versus melee attacks, but is
+					very vulnerable to fire. Master Shapeshifter (12) - boosts the capabilities of each shifter form. Spider becomes Corrupted
+					Spider and gains the Overwhelm attack; bear becomes a Bereskarn and gains the Overwhelm attack; and the Flying Swarm
+					gains health with every attack.
+				</p>
+				<h5>ARCANE WARRIOR</h5>
+				<p>
+					Learned from a spirit in the ruined temple of the Brecilian Forest Bonuses: +1 Dexterity, +5 attack The most unusual of the
+					mage specializations. Basically allows you to become a heavy melee fighter with unsurpassed defensive potential, but
+					with greatly diminished active spellcasting ability due to massively boosted fatigue. Arcane Warrior talents: Combat
+					Magic (7) - a sustained self-buff that lets you use your Magic stat rather than Strength to determine weapon damage
+					(while active) and to satisfy weapon and armour prerequisites (passively once Combat Magic is learned). Also gives up
+					to +10 attack based on your spellpower. Greatly boosts fatigue. Aura of Might (12) - adds bonuses to attack, defense,
+					and damage while Combat Magic is active. This is pretty essential - learn ASAP. Shimmering Shield (14) - the best defensive
+					self-buff in the game, Shimmering Shield is a sustained ability that grants a sizeable bonus to armour, and adds 75
+					points to all resistances except spell resistance (note that 75% is where elemental resistances are capped, but mental
+					and physical resistance can go up to 100). Imposes a heavy penalty on mana regeneration. As of patch 1.02, it will deactivate
+					once mana reaches 0. Try and have this up as much as possible. Fade Shroud (16) - grants a small bonus to mana regeneration
+					and a 25% chance to avoid incoming attacks while Combat Magic is active. Another essential skill that should be learned
+					right away.
+				</p>
+				<h5>BLOOD MAGE</h5>
+				<p>
+					Source: Taught by the Desire demon possessing Connor Bonuses: +2 Constitution, +2 spellpower Unbeatable for sheer offensive
+					potential, Blood Mage is the way to go if you want your mage to just be a spellcasting powerhouse. Be cautious when
+					using Blood abilities, though, as they have significant penalties that can result in disaster if employed at inopportune
+					times. If you like to nuke things into oblivion while hanging well back from the front lines, this specialization was
+					made for you. Blood Mage talents: Blood Magic (7) - a sustained self-buff that uses hit points rather than mana to cast
+					spells, and reduces the effectiveness of any healing spells or items used on you to 10% of their normal strength. The
+					health cost of the spell is 20% lower than its mana cost, and can be further reduced by Blood Mage- specific items found
+					in the game. Blood Sacrifice (12) - heals the caster by sucking life force out of an ally. Can only be used when Blood
+					Magic is active, and does not suffer the 90% healing penalty, but can kill the ally. A ranger's pets can be used as
+					a 'battery' of sorts for a Blood Mage ally with this ability. It's easier to manage than it sounds, as damage to your
+					ally never exceeds 50 points, and you gain 2 hit points for every 1 drained. Blood Wound (14) - one of the most powerful
+					crowd control spells in the game, Blood Wound paralyzes all enemies in a large AoE and inflicts a very strong DoT. Since
+					Blood Mages tend to stack their Magic stat, this is nearly impossible to resist. Blood Magic must be active, and enemies
+					without blood (such as golems) are unaffected. Used wisely, this attack can turn normally difficult encounters into
+					a joke. Blood Control (16) - allows you to turn an enemy into a temporary ally if they fail a mental resistance check.
+					Depends on whether or not these abilities are your cup of tea.
+				</p>
+				<h5>SPIRIT HEALER</h5>
+				<p>
+					Source: Learned from a tome that can be bought either in The Wonders of Thedas or outside Warden's Keep. Contrary to what
+					you'd expect, Wynne cannot teach it. Bonuses: +2 Magic, bonus to combat health regen The most support-oriented of the
+					mage specializations, Spirit Healer is a solid choice for nearly any kind of mage, whether it's making you a better
+					healer than you already are or giving you the option of being a great healer if things take a turn for the worse. The
+					bonuses are great and the spells are all useful. Spirit Healers are the only characters other than Shale in statue mode
+					that can heal more than one character at a time. Group Heal (7) - heals everyone in your group, regardless of how spread
+					out they are. Extremely useful, particularly when recovering from a large AoE attack like a fireball. Revival (8) -
+					this spell is the only way to revive an ally in combat. Usually not necessary, but always nice to have as an option.
+					Lifeward (12) - places a latent buff on the recipient that instantly heals them for a decent amount whenever their hit
+					points fall below 1/3 of their maximum. A good spell to throw on your tank in any tough fight. Cleansing Aura (14) -
+					a sustained AoE buff centred on the caster that sends out pulses of healing energy to all allies in the area, with the
+					heal amount decreasing as allies move further away. Also heals all injuries of allies in close proximity. Good for saving
+					money on injury kits and in battles where your characters tend to stay tightly grouped, but you don't want to leave
+					it running as it drains mana very quickly.
 				</p>
 			</div>
 
 		</div>
 	</div>
+
+
 </body>
 
 </html>
