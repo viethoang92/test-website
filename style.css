@@ -1,0 +1,93 @@
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+
+}
+
+body {
+    background-color: #222;
+    color: white;
+    font-family: serif;
+
+}
+
+
+/* Menu */
+.menu {
+    margin:0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Navigation Bar */
+.sideNav {
+    float: left;
+    display: block;
+    margin-top: 40px;
+    width: 200px;
+    background-color: #555;
+    opacity: 0.7;
+    height: 100%;  /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    left: 0;
+}
+
+.sideNav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.sideNav a:hover {
+    background-color: #222;
+    color: #999;
+}
+
+.subSection a{
+    display: block;
+    background-color: #222;
+    width: 200px;
+    font-size: 16px;
+}
+
+/* END Navigation Bar */
+
+
+.content {
+    height: 1000px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 200px;
+    position: fixed;
+    overflow: auto;
+}
