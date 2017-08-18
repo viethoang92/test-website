@@ -17,26 +17,24 @@ body {
     margin:0;
     padding: 0;
     background-color: #333;
-    overflow: hidden;
+    overflow: auto;
     position: fixed;
-    float:left;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
+    white-space: nowrap;
 }
 
 .menu a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 100%;
     transition: 0.2s ease;
 
-    
 }
 
 .menu a:hover {
@@ -44,23 +42,27 @@ body {
     color: black;
 }
 
+
+
 .menu a.active {
-    background-color: #4CAF50;
+    background-color: #555;
     color: white;
 }
+
 
 /* Navigation Bar */
 .sideNav {
     float: left;
     display: block;
-    margin-top: 40px;
+    top: 5%;
     width: 200px;
     z-index: 1;
     background-color: #555;
-    opacity: 0.7;
-    height: 100%;  /* Full height */
+    opacity: 0.9;
+    overflow-x: hidden;
+      /* Full height */
     position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    overflow-x: hidden; /* Enable scrolling if the sidenav has too much content */
     left: 0;
 }
 
@@ -79,7 +81,9 @@ body {
     color: #999;
     border-color: red;
 }
-
+.subSection{
+    display: 'none';
+}
 
 .subSection a{
     display: 'none';
@@ -98,11 +102,10 @@ body {
 
 .content {
     word-break: normal;
-    height: 1000px;
-    min-width:300px;
+    height: 75%;
+    width:100%;
     float:left;
-    margin-top: 5%;
-    margin-left: 23%;
+    top: 10%;
     position: fixed;
     overflow: auto;
     z-index: 0;

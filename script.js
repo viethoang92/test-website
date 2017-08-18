@@ -5,12 +5,26 @@ $(document).ready(function () {
     sectionJump();
     sectionToggle();
     highlighted();
+    dropDown();
 
 });
+/* DropDownMenu */
+function dropDown() {
+    $(".sideNav").hide();
+    $("#dropbtn").on('click', function () {
+        if($(".subSection a").css('display')=='block'){
+            $(".section").next().hide();
+        }
+        $(this).toggleClass('active');
+        $(".sideNav").slideToggle(100);
+    
+    })
+};
+
 
 /* onClick: highlight  */
 function highlighted() {
-    $('.sideNav a').hover(
+    $('.sideNav a', '.menu a').hover(
         function () {
             $(this).addClass("highlighted");
 
@@ -22,11 +36,6 @@ function highlighted() {
     );
 }
 
-/* Jquery Collapsible */
-function collap() {
-    $(".sideNav").accordion({collapsible: true, active: false});
-}
-
 /* onClick, show subSections*/
 function sectionToggle() {
     $(".subSection").hide();
@@ -34,6 +43,7 @@ function sectionToggle() {
         $(this).toggleClass('active');
         $(this).next().slideToggle(100);
     })
+
 }
 
 /* onClick, jump to Section */
