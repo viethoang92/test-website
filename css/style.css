@@ -10,8 +10,6 @@ body {
 
 }
 
-
-
 /* Menu */
 .menu {
     margin:0;
@@ -75,6 +73,7 @@ body {
     font-size: 20px;
     width: 100%;
     transition: 0.2s ease;
+    text-align: center;
 }
 
 .sideNav a:hover {
@@ -89,8 +88,9 @@ body {
 .subSection a{
     display: 'none';
     background-color: #222;
-    width: 200px;
+    width: 100%;
     font-size: 16px;
+    text-align: center
 }
 
 .active {
@@ -110,6 +110,17 @@ body {
     position: fixed;
     overflow: auto;
     z-index: 0;
+}
+
+.warrior{
+    font-family: sans-serif;
+}
+
+.rogue{
+    font-family: sans-serif;
+}
+.mage{
+    font-family: sans-serif;
 }
 
 
