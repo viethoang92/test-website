@@ -11,6 +11,7 @@ body {
 }
 
 
+
 /* Menu */
 .menu {
     margin:0;
@@ -32,6 +33,9 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.2s ease;
+
+    
 }
 
 .menu a:hover {
@@ -65,12 +69,15 @@ body {
     text-decoration: none;
     font-size: 20px;
     width: 100%;
+    transition: 0.2s ease;
 }
 
 .sideNav a:hover {
     background-color: #222;
     color: #999;
+    border-color: red;
 }
+
 
 .subSection a{
     display: 'none';
@@ -88,11 +95,22 @@ body {
 
 
 .content {
-    word-break: break-all;
+    word-break: normal;
     height: 1000px;
     min-width:300px;
-    margin-top: 40px;
+    float:left;
+    margin-top: 5%;
     margin-left: 200px;
     position: fixed;
     overflow: auto;
+}
+
+
+/* unused */
+
+.highlighted {
+    /*box-shadow: 0 0 8px #FFD700;*/
+    box-shadow: 0 0 8px #000000;
+    
+    cursor:pointer;
 }
