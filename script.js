@@ -11,17 +11,21 @@ $(document).ready(function () {
 /* onClick: highlight  */
 function highlighted() {
     $('.sideNav a').hover(
-    function(){
-        $(this).addClass("highlighted");
-    
-    },
-    function(){
-        $(this).removeClass("highlighted");
-    }
-  );
+        function () {
+            $(this).addClass("highlighted");
 
+        },
+        function () {
+            $(this).removeClass("highlighted");
+        }
+
+    );
 }
 
+/* Jquery Collapsible */
+function collap() {
+    $(".sideNav").accordion({collapsible: true, active: false});
+}
 
 /* onClick, show subSections*/
 function sectionToggle() {
