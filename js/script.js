@@ -2,6 +2,7 @@ $(document).ready(function () {
     $("#sectionI").load("html/sectionI.html");
     $("#sectionII").load("html/sectionII.html");
     $("#sectionIII").load("html/sectionIII.html");
+    $("#sectionIV").load("html/sectionIV.html");
     sectionJump();
     sectionToggle();
     highlighted();
