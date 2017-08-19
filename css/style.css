@@ -107,7 +107,7 @@ body {
 .content {
     word-break: normal;
     height: 90%;
-    width:86%;
+    width:90%;
     max-width: 768px;
     float:left;
     top: 3em;
@@ -141,7 +141,21 @@ body {
 
 /* mobile */
 @media only screen and (max-width: 480px) {
-
+    .sideNav{
+        width: 100%;
+        max-width: 100%;
+        position:fixed;
+        float:top;
+        z-index:1;
+    }
+    .content {
+        padding: 0;
+        margin:0;
+        width: 97%;
+        float:top;
+        position: relative;
+        z-index:0;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
