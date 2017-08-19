@@ -21,7 +21,14 @@ function dropDown() {
     })
 };
 
+/* onClick, show subSections*/
+function sectionToggle() {
+    $(".section").on('click', function () {
+        $(this).toggleClass('active');
+        $(this).next().slideToggle(100);
+    })
 
+}
 /* onClick: highlight  */
 function highlighted() {
     $('.sideNav a', '.menu a').hover(
@@ -36,14 +43,7 @@ function highlighted() {
     );
 }
 
-/* onClick, show subSections*/
-function sectionToggle() {
-    $(".section").on('click', function () {
-        $(this).toggleClass('active');
-        $(this).next().slideToggle(100);
-    })
 
-}
 
 /* onClick, jump to Section */
 function sectionJump() {

@@ -56,9 +56,9 @@ body {
 .sideNav {
     display: none;
     top: 3em;
-    width: 95%;
-    max-width: 300px;
-    max-height: 100%;;
+    width: 90%;
+    max-width: 250px;
+    max-height: 92%;
     z-index: 1;
     background-color: #555;
     opacity: 0.9;
