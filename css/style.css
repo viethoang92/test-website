@@ -1,5 +1,5 @@
 * { 
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
   box-sizing: border-box;
 }
 body {
@@ -17,20 +17,20 @@ body {
     background-color: #333;
     overflow: auto;
     position: fixed;
-    float: top;
+    float: right;
     width: 100%;
-    height:3em;
+    height:3.3em;
     top: 0;
     left: 0;
     z-index: 1;
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .menu a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    max-height: 3em;
     height:100%;
     padding: 7px 16px;
     text-decoration: none;
@@ -51,11 +51,18 @@ body {
     color: white;
 }
 
+.iconBar{
+     
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
 
+}
 /* Navigation Bar */
 .sideNav {
     display: none;
-    top: 3em;
+    top: 3.3em;
     width: 90%;
     max-width: 250px;
     max-height: 92%;
@@ -110,7 +117,7 @@ body {
     width:90%;
     max-width: 768px;
     float:left;
-    top: 3em;
+    top: 3.3em;
     position: fixed;
     overflow: auto;
     z-index: 0;
@@ -153,7 +160,7 @@ body {
         margin:0;
         width: 97%;
         float:top;
-        position: relative;
+        position: fixed;
         z-index:0;
     }
 }
