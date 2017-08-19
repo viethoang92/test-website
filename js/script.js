@@ -10,7 +10,6 @@ $(document).ready(function () {
 });
 /* DropDownMenu */
 function dropDown() {
-    $(".sideNav").hide();
     $("#dropbtn").on('click', function () {
         if($(".subSection a").css('display')=='block'){
             $(".section").next().hide();
@@ -38,7 +37,6 @@ function highlighted() {
 
 /* onClick, show subSections*/
 function sectionToggle() {
-    $(".subSection").hide();
     $(".section").on('click', function () {
         $(this).toggleClass('active');
         $(this).next().slideToggle(100);
