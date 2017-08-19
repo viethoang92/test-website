@@ -3,6 +3,7 @@ $(document).ready(function () {
     $("#sectionII").load("html/sectionII.html");
     $("#sectionIII").load("html/sectionIII.html");
     $("#sectionIV").load("html/sectionIV.html");
+    $("#sectionV").load("html/sectionV.html");
     sectionJump();
     sectionToggle();
     highlighted();
