@@ -44,12 +44,11 @@ body {
     color: black;
 }
 
-
-
 .menu a.active {
     background-color: #555;
     color: white;
 }
+
 
 .iconBar{
      
@@ -89,7 +88,11 @@ body {
 .sideNav a:hover {
     background-color: #222;
     color: #999;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 200;
     border-color: red;
+    box-shadow: 3px 3px 8px red;;
 }
 .subSection{
     display: 'none';
@@ -104,8 +107,9 @@ body {
 }
 
 .active {
-  background-color: #333333;
+  background-color: #000;
   color: whitesmoke;
+  box-shadow: 3px 3px 8px red;
 }
 
 /* END Navigation Bar */
@@ -139,9 +143,11 @@ body {
 
 .highlighted {
     /*box-shadow: 0 0 8px #FFD700;*/
-    box-shadow: 0 0 8px #000000;
-    
-    cursor:pointer;
+    background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    box-shadow: 1px 0 5px red inset;
 }
 
 

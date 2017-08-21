@@ -12,10 +12,26 @@ $(document).ready(function () {
 });
 /* DropDownMenu */
 function dropDown() {
+    
     $("#dropbtn").on('click', function () {
         if($(".subSection a").css('display')=='block'){
             $(".section").next().hide();
+            $('.highlighted').before(function(){
+                $(this).removeClass('highlighted');
+            });
+            $('.section').before(function(){
+                $(this).removeClass('active');
+            });
         }
+
+        if($(".section a").css('display')=='block'){
+            $(".section").hide();
+            $('.highlighted').before(function(){
+                $(this).removeClass('highlighted');
+            });
+        }
+
+
         $(this).toggleClass('active');
         $(".sideNav").slideToggle(100);
     
@@ -32,19 +48,13 @@ function sectionToggle() {
 }
 /* onClick: highlight  */
 function highlighted() {
-    $('.sideNav a', '.menu a').hover(
-        function () {
-            $(this).addClass("highlighted");
-
-        },
-        function () {
+    $('.sideNav a').on('click', function() {
+        $('.highlighted').before(function(){
             $(this).removeClass("highlighted");
-        }
-
-    );
+        })
+        $(this).toggleClass('highlighted');
+    })
 }
-
-
 
 /* onClick, jump to Section */
 function sectionJump() {
